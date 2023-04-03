@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ss_nav"
+    app:startDestination="@id/closetFrag">
+
+    <fragment
+        android:id="@+id/closetFrag"
+        android:name="com.example.stylesync.closetFrag"
+        android:label="fragment_closet"
+        tools:layout="@layout/fragment_closet" />
+    <fragment
+        android:id="@+id/cameraFrag"
+        android:name="com.example.stylesync.cameraFrag"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/suggestionFrag"
+        android:name="com.example.stylesync.suggestionFrag"
+        android:label="fragment_suggestion"
+        tools:layout="@layout/fragment_suggestion" />
+</navigation>
