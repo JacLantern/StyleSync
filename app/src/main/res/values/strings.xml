@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StyleSync</string>
+    <string name="Button">Button</string>
 </resources>
