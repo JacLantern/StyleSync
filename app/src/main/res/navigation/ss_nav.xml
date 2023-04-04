@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ss_nav"
-    app:startDestination="@id/closetFrag">
+    app:startDestination="@id/closetFragment">
 
     <fragment
-        android:id="@+id/closetFrag"
-        android:name="com.example.stylesync.closetFrag"
+        android:id="@+id/closetFragment"
+        android:name="com.example.stylesync.ClosetFragment"
         android:label="fragment_closet"
         tools:layout="@layout/fragment_closet" />
     <fragment
-        android:id="@+id/cameraFrag"
-        android:name="com.example.stylesync.cameraFrag"
+        android:id="@+id/cameraFragment"
+        android:name="com.example.stylesync.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
     <fragment
-        android:id="@+id/suggestionFrag"
-        android:name="com.example.stylesync.suggestionFrag"
-        android:label="fragment_suggestion"
-        tools:layout="@layout/fragment_suggestion" />
+        android:id="@+id/suggestionsFragment"
+        android:name="com.example.stylesync.SuggestionsFragment"
+        android:label="fragment_suggestions"
+        tools:layout="@layout/fragment_suggestions" />
 </navigation>

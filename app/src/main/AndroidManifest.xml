@@ -23,7 +23,7 @@
         <activity
             android:name=".MainActivity"
             android:banner="@drawable/app_icon_your_company"
-            android:exported="true"
+            android:exported="false"
             android:icon="@drawable/app_icon_your_company"
             android:label="@string/title_activity_main"
             android:logo="@drawable/app_icon_your_company"
@@ -36,9 +36,6 @@
         </activity>
         <activity
             android:name=".DetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PlaybackActivity"
             android:exported="false" />
         <activity
             android:name=".BrowseErrorActivity"
