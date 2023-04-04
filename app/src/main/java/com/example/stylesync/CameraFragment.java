@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link cameraFrag#newInstance} factory method to
+ * Use the {@link CameraFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class cameraFrag extends Fragment {
+public class CameraFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class cameraFrag extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public cameraFrag() {
+    public CameraFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class cameraFrag extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment cameraFrag.
+     * @return A new instance of fragment CameraFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static cameraFrag newInstance(String param1, String param2) {
-        cameraFrag fragment = new cameraFrag();
+    public static CameraFragment newInstance(String param1, String param2) {
+        CameraFragment fragment = new CameraFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
