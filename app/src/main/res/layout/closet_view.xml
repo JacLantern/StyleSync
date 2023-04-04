@@ -4,21 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F5CAC3"
     android:padding="16sp"
     android:scrollbarSize="25sp"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="8dp"
         android:gravity="center_horizontal">
 
         <Button
+            android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Button" />
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="140dp"
+            android:background="#FFFC99"
+            android:backgroundTint="#FFFC99"
+            android:foregroundTint="#FFFC99"
+            android:text="@string/Button"
+            app:iconTint="#FFFC99"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="64dp"
+            android:text="@string/Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120.5dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="120.5dp"
+            android:text="@string/Closet"
+            android:textColor="#4B5267"
+            android:textColorHint="#DA1B1B"
+            android:textColorLink="#B12828"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
