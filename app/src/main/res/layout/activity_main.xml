@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="#A6CFD5">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -102,6 +103,11 @@
         android:text="@string/clothingType"
         android:textColor="#202A45"
         android:textSize="20sp"
+    
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -172,5 +178,5 @@
         android:inputType="none"
         tools:layout_editor_absoluteX="89dp"
         tools:layout_editor_absoluteY="542dp" />
-
+        app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

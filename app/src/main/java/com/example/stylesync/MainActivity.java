@@ -1,5 +1,6 @@
 package com.example.stylesync;
 
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -9,12 +10,12 @@ import android.widget.Toast;
 
 import androidx.fragment.app.FragmentActivity;
 
-import com.example.stylesync._fragment.CamFragment;
+import androidx.appcompat.app.AppCompatActivity;
 
-/*
- * Main Activity class that loads {@link MainFragment}.
- */
-public class MainActivity extends FragmentActivity {
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
 
     String[] item = {"Material", "Design", "Components", "Android","5.0 Lollipop"};
 
@@ -23,9 +24,10 @@ public class MainActivity extends FragmentActivity {
     ArrayAdapter<String> adapterItems;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         aCTV = findViewById(R.id.auto_complete_txt);
         adapterItems = new ArrayAdapter<String>(this,R.layout.list_item);
@@ -45,5 +47,6 @@ public class MainActivity extends FragmentActivity {
                     .commitNow();
 
         }
+
     }
 }
