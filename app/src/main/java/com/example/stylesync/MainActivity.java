@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         });
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.main_browse_fragment, new MainFragment())
+                    .replace(R.id.clothing_type_select, new MainFragment())
                     .commitNow();
 
         }
