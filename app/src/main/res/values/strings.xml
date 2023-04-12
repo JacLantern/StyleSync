@@ -5,6 +5,12 @@
     <string name="error_fragment_message">An error occurred</string>
     <string name="dismiss_error">Dismiss</string>
     <string name="Button">Button</string>
+    <string name="Suggestions">Suggestions</string>
+    <string name="Closet">Closet</string>
+    <string name="Camera">Camera</string>
+    <string name="ClosetFragString">Closet</string>
+    <string name="CameraFragString">Camera</string>
+    <string name="SugFragString">Suggestions</string>
     <string name="Closet">Closet</string>
     <string name="Image2">Image2</string>
     <string name="Image1">Image1</string>
