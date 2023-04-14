@@ -1,3 +1,5 @@
+package com.example.stylesync;
+
 import androidx.room.*;
 import java.util.*;
 
@@ -18,6 +20,10 @@ public interface ItemDao {
 
     @Query("SELECT * FROM Closet WHERE isPatterned IN (:arePatterned)")
     List<Item> loadAllByType(boolean[] arePatterned);
+
+    @Insert
+    void insertItem(Item item);
+
 
     @Insert
     void insertAll(Item... Closets);

@@ -1,3 +1,5 @@
+package com.example.stylesync;
+
 import androidx.room.*;
 
 import com.example.stylesync.Item;
